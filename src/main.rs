@@ -14,6 +14,12 @@ struct Day {
 
 fn get_days() -> Vec<Day> {
     vec![
+        Day {
+            number: 5,
+            star1: day05::star1::star1,
+            star2: day05::star2::star2,
+            input: include_str!("../internal/days/day05/input.txt"),
+        },
     ]
 }
 
